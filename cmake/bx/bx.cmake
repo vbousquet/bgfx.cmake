@@ -90,7 +90,7 @@ target_compile_definitions(bx PUBLIC "__STDC_LIMIT_MACROS")
 target_compile_definitions(bx PUBLIC "__STDC_FORMAT_MACROS")
 target_compile_definitions(bx PUBLIC "__STDC_CONSTANT_MACROS")
 
-target_compile_features(bx PUBLIC cxx_std_14)
+target_compile_features(bx PUBLIC cxx_std_20)
 # (note: see bx\scripts\toolchain.lua for equivalent compiler flag)
 target_compile_options(bx PUBLIC $<$<CXX_COMPILER_ID:MSVC>:/Zc:__cplusplus /Zc:preprocessor>)
 

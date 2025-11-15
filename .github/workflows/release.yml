@@ -4,9 +4,9 @@ name: Release
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, vpx_fixes ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, vpx_fixes ]
 
 jobs:
 

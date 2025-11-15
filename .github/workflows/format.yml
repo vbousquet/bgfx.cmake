@@ -3,9 +3,9 @@ name: Format
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, vpx_fixes ]
   pull_request_target:
-    branches: [ master ]
+    branches: [ master, vpx_fixes ]
 
 jobs:
   cmake-format-check:
